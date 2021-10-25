@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.xop-section {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+
+
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+ 
+.xop-grid:after {
+	clear: both;
+}
+ 
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+ 
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+ 
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+ 
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(https://cdn.expandcart.com/wp-content/uploads/2019/12/makeupwithexpandcart.jpg);
+}
+ 
+.xop-img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+
+	url(https://www.nykaa.com/beauty-blog/wp-content/uploads/images/issue214/6-Fragrances-To-Fit-Every-Bridal-Personality_bb214banner.jpg);
+}
+ 
+.xop-img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(https://imgix.bustle.com/uploads/image/2019/6/25/d5f96a3a-393a-4ac4-8246-0ea1f07cd89d-best-korean-hair-care-products.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
+}
+ 
+.xop-img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(https://s.yimg.com/ny/api/res/1.2/HZDOAQXuYLElWtvwP.0JlA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/https://media.zenfs.com/en-us/purewow_185/d6272b1958a3c2d2e1c3960607476c03);
+}
+
+.xop-img-5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(https://www.opi.com/sites/default/files/styles/large/public/2nl.jpg?itok=XLYZ9loZ);
+}
+ 
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+ 
+.xop-info h3 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.5;
+}
+ 
+.xop-info p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+h1 {
+    margin: 40px 0;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+  }

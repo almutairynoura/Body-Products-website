@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>about use</title>
+<link href="css2.css" rel="stylesheet" type="text/css">
+<script src="slider.js"></script> 
+<link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+
+<body>
+          <header >
+                 <a href="#home" class="a"> <img src="z.JPEG" alt="logo" style="width:  350px; height:100px ; margin:0 ;"/>  </a>
+                <strong style="font-size:20pt"> Online Beauty Store </strong>  <br>  
+    
+              </header>
+<nav>
+                      <ul>
+                               <li><a href="Home.html" class="a">Home </a> </li>  
+                              <li><a href="Gallery.html " class="a">Gallery</a></li>
+                              <li><a href="Registration.html"class="a">Product Registration </a>
+
+
+                           <ul> <li><a href="productsinformation.html" class="a">Product Information</a> </li>
+                           <li><a href="search.html"class="a"> Search about product with expiration date</a>  </li>
+                           <li> <a href="upform.html" class="a"> Update product information</a></li></ul>
+                                        
+                                    
+                              <li><a href="contact_us.html"class="a">Contact us </a></li>
+                              <li><a href="Calculater.html"class="a">Calculator </a></li> 
+                              <li><a href="about_us.html"class="a">About us</a></li>
+                              <li><a href="Customerpage.html" class="a"> Customer Profile </a>
+                             
+                            
+                               
+                              
+                            </ul>
+                          </nav>
+ 
+ <nav class="verticalNav">
+<ul class="verticalUl">
+
+                     <li><a href="Home.html" class="a"><img src="https://cdn0.iconfinder.com/data/icons/lineo-internet/100/romzicon_home-512.png" width=20px height=20px> </a> </li>  
+                    <li><a href="gallery.html" class="a"><img src="https://cdn2.iconfinder.com/data/icons/picons-essentials/71/gallery-512.png" width=20px height=20px >  </a></li>
+                    <li><a href="Registration.html"class="a"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RegisteredTM.svg/1200px-RegisteredTM.svg.png" width=20px height=20px> </a></li>
+                    <li><a href="contact_us.html"class="a"><img src="https://cdn4.iconfinder.com/data/icons/rounded-white-basic-ui/139/Call01-RoundedWhite-512.png" width=20px height=20px>  </a></li>
+                    <li><a href="about_us.html" class="a"><img src="https://image.flaticon.com/icons/png/512/15/15659.png" width=20px height=20px></a></li>
+                    <li><a href="Customerpage.html"class="a"><img src="https://cdn1.iconfinder.com/data/icons/client-management/512/find-512.png" width=20px height=20px>  </a></li>
+
+
+</ul>
+</nav>
+   
+    
+    
+    
+ 
+
+ <div align="center" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="norU.png" height = 200px width=200px style="width:35%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="rahfU.png" height = 200px width=200px style="width:35%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="waadU.png" height = 200px width=200px  style="width:35%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="shU.png" height = 200px width=200px  style="width:35%">
+ 
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>   
+    
+    
+ 
+
+
+    <footer> 
+           <br><br> Copyright &copy; IMAMU. All rights reserved 2020.<br></footer>
+  
+</body>
+</html>
